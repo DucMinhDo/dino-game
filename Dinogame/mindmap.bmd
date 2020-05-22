@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<map name="NewDocument" document_type="Blumind" editor_version="1.3.21.1">
+  <!--Create by Blumind, you can download it free from http://www.blumind.org/download-->
+  <info>
+    <author>ducmi</author>
+    <company>
+    </company>
+    <version>1.0</version>
+  </info>
+  <layout>MIND_MAP</layout>
+  <attributes>
+    <item name="editor_show_sidebar">True</item>
+  </attributes>
+  <style>
+    <back_color>DimGray</back_color>
+    <fore_color>BlanchedAlmond</fore_color>
+    <line_color>LightSlateGray</line_color>
+    <border_color>SlateGray</border_color>
+    <node_back_color>LightGray</node_back_color>
+    <node_fore_color>Black</node_fore_color>
+    <select_color>RoyalBlue</select_color>
+    <hover_color>MediumSlateBlue</hover_color>
+    <link_line_color>Green</link_line_color>
+  </style>
+  <nodes>
+    <node text="dino game">
+      <style>
+        <back_color>Silver</back_color>
+        <fore_color>Black</fore_color>
+        <border_color>Black</border_color>
+        <padding>12</padding>
+      </style>
+      <nodes>
+        <node text="Background">
+          <nodes>
+            <node text="Theme">
+              <nodes>
+                <node text="picture" />
+                <node text="moving loop" />
+              </nodes>
+            </node>
+            <node text="Sun">
+              <nodes>
+                <node text="position">
+                  <nodes>
+                    <node text="x" />
+                    <node text="y" />
+                  </nodes>
+                </node>
+                <node text="spin">
+                  <nodes>
+                    <node text="degree/s" />
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node text="cloud">
+              <nodes>
+                <node text="cloud" />
+                <node text="random generator">
+                  <nodes>
+                    <node text="time" />
+                    <node text="x" />
+                    <node text="y" />
+                  </nodes>
+                </node>
+                <node text="position">
+                  <nodes>
+                    <node text="x" />
+                    <node text="y" />
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+        <node text="charactor">
+          <nodes>
+            <node text="dino">
+              <nodes>
+                <node text="position">
+                  <nodes>
+                    <node text="y" />
+                    <node text="x" />
+                  </nodes>
+                </node>
+                <node text="move">
+                  <nodes>
+                    <node text="speed" />
+                    <node text="jump">
+                      <nodes>
+                        <node text="vy" />
+                        <node text="g" />
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+                <node text="Death" />
+              </nodes>
+            </node>
+            <node text="enermy">
+              <nodes>
+                <node text="position">
+                  <nodes>
+                    <node text="x" />
+                    <node text="y" />
+                  </nodes>
+                </node>
+                <node text="moving">
+                  <nodes>
+                    <node text="speed" />
+                  </nodes>
+                </node>
+                <node text="shape">
+                  <nodes>
+                    <node text="height" />
+                    <node text="width" />
+                  </nodes>
+                </node>
+                <node text="kill">
+                  <nodes>
+                    <node text="dino" />
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+</map>
